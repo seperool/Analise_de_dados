@@ -1,6 +1,6 @@
-ESCRITO EM 03/12/24
+ESCRITO EM 26/12/24
 ---
-PARA 04/12/24
+PARA 27/12/24
 ---
 Subir github:
 
@@ -9,3 +9,9 @@ Estudar:
 Afazeres:
     Modulo 2:
         - 2.4 - Primeira analise (Excel)
+        - Estatística básica
+            - Prepraração dos dados
+                - Variável Quantitativa Contínua
+                - Variáveis Qualitativas
+            - Medidas de posição
+            - Medidas de dispersão
