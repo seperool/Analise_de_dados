@@ -260,6 +260,7 @@ forma a transmitir significado e compreensão dentro de um contexto.
 \newpage
 
 #### Variável Quantitativa Contínua
+
 #### Variáveis Qualitativas
 
 ## Medidas de posição
@@ -290,5 +291,19 @@ forma a transmitir significado e compreensão dentro de um contexto.
 \newpage
 
 # EXCEL
+
+## Ferramentas do Excel
+
+Algumas ferramentas do Excel que podem ajudar na análise da dados:
+
+  * Filtro
+  * Tabela (tabela dinâmica)
+  * Gráficos
+
+## Filtro Excel
+
+## Tabela dinâmica
+
+## Gráficos
 
 \newpage
