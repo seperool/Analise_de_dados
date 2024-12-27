@@ -70,4 +70,225 @@ import datetime
 
 # DADOS
 
+## O que são dados?
+
+Dados são valores brutos atribuidos a algo.
+
+## Informação
+
+* Informação é a ordenação e organização dos dados de 
+forma a transmitir significado e compreensão dentro de um contexto.
+
+* Informação é o significado que a gente obtém a partir dos dados.
+
+* Informação $=$ fazer perguntas para os dados (responder pergunta).
+
+* Nem sempre podemos confiar nos dados, é preciso entender o contexto dos dados.
+    * De onde eles vem?
+    * Quem são as pessoas que responderam?
+    * O que são esses dados?
+
+## Teoria
+
+* Análise descritiva dos dados através da tabulação das variáveis e cálculo de medidas descrititvas (média, desvio-padrão, etc).
+* Análise descritiva dos dados (Informações preliminares):
+  * Contagem dos resultados observados em cada variável do conjunto de dados.
+  * Natureza descritiva dos dados, tipo de variáveis (categórica ou numérica).
+  * Três objetivos principais:
+    * Verificar erros e anomalias.
+    * Compreender a distribuição de cada uma das variáveis isoladamente.
+    * Compreender a natureza e a força das relações entre as variáveis.
+* Após essas etapas, estabelecer um modelo estatístico formal e relatar suas conclusões.
+
+## Tipos de variáveis
+
+* Variável numérica:
+  
+  * Continua
+  
+    Se seus valores pertencer ao conjunto dos números reais.
+  
+    Ex.: Temperatura corporal, saldo em caixa, peso da carga de um caminhão, etc.
+  
+  * Discreta
+  
+    Se seus valores pertencer ao conjunto dos números inteiros.
+  
+    Ex.: Número de pessoas com febre, número de empresas, número de caminhões, etc.
+  
+* Variável categórica:
+ 
+  * Ordinal
+  
+    Se seus valores podem ser ordenados do menor para o maior.
+  
+    Ex.: Temperatura (baixa, média ou alta), saldo em caixa (negativo, nulo ou positivo), etc.
+  
+  * Nominal
+  
+    Quando não for possível estabeler ordenamento.
+  
+    Ex.: Sexo do individuo, atividade fim da empresa, marca/modelo do caminhão, etc.
+
+\newpage
+
+# Estatística Básica (Teoria medidas de posição e dispersão)
+
+## Preparação dos dados para aplicação de estatística básica
+
+### Teoria
+
+* Definição de Estatística:
+
+  A Estatística de uma maneira geral compreende aos métodos científicos para **COLETA**,
+  **ORGANIZAÇÃO**, **RESUMO**, **APRESENTAÇÃO** e **ANÁLISE** de Dados de Observação (Estudos ou
+  Experimentos), obtidos em qualquer área de conhecimento. A finalidade é a de obter conclusões
+  válidas para tomada de decisões.
+  
+  * Estatística Descritiva
+  
+    Parte responsável basicamente pela **COLETA** e **SÍNTESE** (Descrição) dos Dados em questão.
+
+    Disponibiliza de técnicas para o alcance desses objetivos. Tais Dados podem ser provenientes de uma AMOSTRA ou POPULAÇÃO.
+  
+  * Estatística Inferencial
+  
+    É utilizada para tomada de decisões a respeito de uma população, em geral fazendo uso de
+    dados de amostrais.
+
+    Essas decisões são tomadas sob condições de **INCERTEZA**, por isso faz-se necessário o uso da
+    **TEORIA DA PROBABILIDADE**.
+
+* O fluxograma da estatística descritiva pode ser espresso da seguinte forma:
+
+  ![Estatística descritiva.](./Quarto/Imagens/fluxograma_estatistica_descritiva.png){}
+
+* A representação tabular (Tabelas de Distribuição de Frequências) deve conter:
+  * Cabeçalho
+  
+    Deve conter o suficiente para que as seguintes perguntas sejam respondidas "**o que?**" (Relativo ao fato), "**onde?**" (Relativo ao lugar) e "**quando?**" (Correspondente à época).
+  
+  * Corpo
+    
+    É o lugar da Tabela onde os dados serão registrados. Apresenta colunas e sub colunas.
+  
+  * Rodapé
+    
+    Local destinado à outras informações pertinentes, por exemplo a Fonte dos Dados.
+
+* População e Amostras
+  
+  * População
+    
+    É o conjunto de todos os itens, objetos ou pessoas sob consideração, os quais possuem pelo
+    menos uma característica (Variável) em comum. Os elementos pertencentes à uma População são
+    denominados "Unidades Amostrais".
+  
+  * Amostras
+  
+    É qualquer subconjunto (não vazio) da População. É extraída conforme regras pré-estabelecidas,
+    com a finalidade de obter "estimativa" de alguma Característica da População.
+
+\newpage
+
+* Tipos de variáveis
+
+  ![Tipos de variáveis.](./Quarto/Imagens/tipos_de_variaveis_estatistica.png){height=5cm}
+  
+  * *Qualitativo nominal*:
+  
+    Não possuem uma ordem natural de ocorrência.
+  
+  * *Qualitativo ordinal*:
+  
+    Possuem uma ordem natural de ocorrência.
+  
+  * *Quantitativo descreta*:
+    
+    Só podem assumir valores inteiros, pertencentes a um conjunto finito ou enumerável.
+  
+  * *Quantitativo continua*:
+    
+    Podem assumir qualquer valor em um determinado intervalo da reta dos números reais.
+
+\newpage
+
+### Preparação dos dados (sumariazar dados coletados)
+
+* Frequência (conceito):
+  
+  É a quantidade de vezes que um valor é observado dentro de um conjunto de dado.
+
+* Distribuição em frequências:
+  * A distribuição tabular é denominada: "Tabela de Distribuição de Frequências".
+  * Podemos separar em 3 modelos de distribuição tabular:
+    * Variável Quantitativa Discreta.
+    * Variável Quantitativa Contínua.
+    * Variáveis Qualitativas.
+
+\newpage
+
+#### Variável Quantitativa Discreta
+
+* Passos da preparação dos dados:
+  * 1º Passo - **DADOS BRUTOS**: 
+    
+    Obter os dados da maneira que foram coletados.
+  
+  * 2º Passo - **ROL**: 
+    
+    Organizar os DADOS BRUTOS em uma determinada ordem (crescente ou decrescente).
+  
+  * 3º Passo - **CONSTRUÇÃO TABELA**: 
+    
+    Na primeira coluna são colocados os valores da variável, e nas demais as respectivas frequências.
+  
+  * Frequência absoluta simples (Nº de vezes que cada valor da variável se repete).
+
+* Principais campos da **distribuição tabular de variaveis quantitativas discreta**:
+  * $n$ é o número total de elementos da amostra.
+  * $x_{i}$ é o número de valores distintos que a variavel assume.
+  * $F_{i}$ é a Frequência Absoluta Simples.
+  * $f_{i}$ é a Frequência Relativa Simples.
+  * $f_{i} \%$ é a Frequência Relativa Simples Percentual. $f_{i}\% = f_{i} \cdot 100\%$.
+  * $F_{a}$ é a Frequência Absoluta Acumulada.
+
+  ![Distribuição tabular quantitativo discreta.](./Quarto/Imagens/Distribuicao_tabular_quantitativo_discreta.png){height=5cm}
+
+  Obs.: As setas simbolizam ordem crescente ou decrescente.
+
+\newpage
+
+#### Variável Quantitativa Contínua
+#### Variáveis Qualitativas
+
+## Medidas de posição
+## Medidas de dispersão
+
+\newpage
+
+## Análise Estatística
+
+* Para fazer uma Análise Estatística eficiente de dados, necessitamos:
+  
+  * Limpar os dados:
+    
+    Remover os *OUTLIER* (valores atipicos, inconsistentes).\
+  
+  * Aplicar Estatística Descritiva aos dados:
+    
+    As medidas de posição (**Média**, **Mediana** e **moda**) e dispersão (**Amplitude Total**, **Desvio**, **Desvio Médio**, **Variância**, **Desvio-padrão** e **Coeficiente de Variação**) são maneiras de descrever os dados.
+  
+  * Comparar as medidas dos dados:
+    
+    Principalmente medidas de dispersão, me especial **Coeficiente de Variação**, são ótimas para comparar dados.
+  
+  * Previsão de dados:
+    
+    A principal técnica é de **Regressão**, porém para aplicar, necessita que os dados estejam limpos e com pouca dispersão (quanto menor, melhor).
+
+\newpage
+
 # EXCEL
+
+\newpage
