@@ -61,7 +61,7 @@ import math
 import statistics
 import numpy as np
 import pandas as pd
-import datetime 
+import datetime
 ```
 
 \newpage
@@ -87,6 +87,22 @@ forma a transmitir significado e compreensão dentro de um contexto.
     * De onde eles vem?
     * Quem são as pessoas que responderam?
     * O que são esses dados?
+
+## Tabela banco de dados termos
+
+```{python}
+#| label: tbl-nomeclaturas
+#| tbl-cap: Bnaco de dados nomeclaturas
+
+from IPython.display import Markdown
+from tabulate import tabulate
+table = [["Coluna(s)","Campo(s)"],
+         ["Linha(s)","Registro(s)"]]
+Markdown(tabulate(
+  table, 
+  headers=["Nomeclatura", "Nomeclatura técnica"]
+))
+```
 
 ## Teoria
 
@@ -302,8 +318,27 @@ Algumas ferramentas do Excel que podem ajudar na análise da dados:
 
 ## Filtro Excel
 
+* Inserir filtros na primeira linha (campo):
+  * Célula na primeira linha
+  * Aba "Dados" > "Classificar e Filtrar" > "Filtro"
+
 ## Tabela dinâmica
 
+* Inserir Tabela dinâmica:
+  * Selecionar toda tabela;
+    * Selecionar primeira célula ("A1");
+    * Comandos: CTRL + SHIFT + $\downarrow$ + $\rightarrow$;
+  * Aba "Inserir" > "Tabelas" > "Tabela dinâmica";
+  * Opção "Nova planilha".
+
+* Agrupar informações com tabela dinâmica:
+  * Linha/Registro: informação que queremos;
+  * Valores: Normalmente registros únicos (primary key, exemplo: "ID").
+
 ## Gráficos
+
+* Criar um gráfico rapído com base na tabela dinâmica:
+  * Clickar na tabela dinâmica criada;
+  * Aba "Inserir" > "Gráficos" > "Gráficos recomendados".
 
 \newpage
