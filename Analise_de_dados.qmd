@@ -62,6 +62,8 @@ import statistics
 import numpy as np
 import pandas as pd
 import datetime
+import pytinytex
+
 ```
 
 \newpage
@@ -342,3 +344,16 @@ Algumas ferramentas do Excel que podem ajudar na análise da dados:
   * Aba "Inserir" > "Gráficos" > "Gráficos recomendados".
 
 \newpage
+
+## Bloco `if-else`
+
+* Podemos usar o bloco `if-else` no Excel usando a função `SE()`.
+* Na função `SE()`, usamos como argumentos:
+  * Expressão a ser avaliada;
+  * Ação caso verdadeira;
+  * Ação caso falso.
+* Para usar uma **função no Excel** na barra de fórmulas inserimos o sinal de `=` antes da expressão/função para o Excel saber que se trata de uma expressão.
+  
+  Exemplo:
+  
+  `=SE($T2="TRUE";"Pessoa Gestora";$X2)`
