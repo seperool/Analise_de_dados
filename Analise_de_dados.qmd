@@ -68,6 +68,7 @@ import pytinytex
 
 \newpage
 \pagenumbering{arabic}
+
 # PRINCIPAIS TÓPICOS
 
 # DADOS
@@ -78,17 +79,17 @@ Dados são valores brutos atribuidos a algo.
 
 ## Informação
 
-* Informação é a ordenação e organização dos dados de 
-forma a transmitir significado e compreensão dentro de um contexto.
+-   Informação é a ordenação e organização dos dados de forma a transmitir significado e compreensão dentro de um contexto.
 
-* Informação é o significado que a gente obtém a partir dos dados.
+-   Informação é o significado que a gente obtém a partir dos dados.
 
-* Informação $=$ fazer perguntas para os dados (responder pergunta).
+-   Informação $=$ fazer perguntas para os dados (responder pergunta).
 
-* Nem sempre podemos confiar nos dados, é preciso entender o contexto dos dados.
-    * De onde eles vem?
-    * Quem são as pessoas que responderam?
-    * O que são esses dados?
+-   Nem sempre podemos confiar nos dados, é preciso entender o contexto dos dados.
+
+    -   De onde eles vem?
+    -   Quem são as pessoas que responderam?
+    -   O que são esses dados?
 
 ## Tabela banco de dados termos
 
@@ -108,45 +109,45 @@ Markdown(tabulate(
 
 ## Teoria
 
-* Análise descritiva dos dados através da tabulação das variáveis e cálculo de medidas descrititvas (média, desvio-padrão, etc).
-* Análise descritiva dos dados (Informações preliminares):
-  * Contagem dos resultados observados em cada variável do conjunto de dados.
-  * Natureza descritiva dos dados, tipo de variáveis (categórica ou numérica).
-  * Três objetivos principais:
-    * Verificar erros e anomalias.
-    * Compreender a distribuição de cada uma das variáveis isoladamente.
-    * Compreender a natureza e a força das relações entre as variáveis.
-* Após essas etapas, estabelecer um modelo estatístico formal e relatar suas conclusões.
+-   Análise descritiva dos dados através da tabulação das variáveis e cálculo de medidas descrititvas (média, desvio-padrão, etc).
+-   Análise descritiva dos dados (Informações preliminares):
+    -   Contagem dos resultados observados em cada variável do conjunto de dados.
+    -   Natureza descritiva dos dados, tipo de variáveis (categórica ou numérica).
+    -   Três objetivos principais:
+        -   Verificar erros e anomalias.
+        -   Compreender a distribuição de cada uma das variáveis isoladamente.
+        -   Compreender a natureza e a força das relações entre as variáveis.
+-   Após essas etapas, estabelecer um modelo estatístico formal e relatar suas conclusões.
 
 ## Tipos de variáveis
 
-* Variável numérica:
-  
-  * Continua
-  
-    Se seus valores pertencer ao conjunto dos números reais.
-  
-    Ex.: Temperatura corporal, saldo em caixa, peso da carga de um caminhão, etc.
-  
-  * Discreta
-  
-    Se seus valores pertencer ao conjunto dos números inteiros.
-  
-    Ex.: Número de pessoas com febre, número de empresas, número de caminhões, etc.
-  
-* Variável categórica:
- 
-  * Ordinal
-  
-    Se seus valores podem ser ordenados do menor para o maior.
-  
-    Ex.: Temperatura (baixa, média ou alta), saldo em caixa (negativo, nulo ou positivo), etc.
-  
-  * Nominal
-  
-    Quando não for possível estabeler ordenamento.
-  
-    Ex.: Sexo do individuo, atividade fim da empresa, marca/modelo do caminhão, etc.
+-   Variável numérica:
+
+    -   Continua
+
+        Se seus valores pertencer ao conjunto dos números reais.
+
+        Ex.: Temperatura corporal, saldo em caixa, peso da carga de um caminhão, etc.
+
+    -   Discreta
+
+        Se seus valores pertencer ao conjunto dos números inteiros.
+
+        Ex.: Número de pessoas com febre, número de empresas, número de caminhões, etc.
+
+-   Variável categórica:
+
+    -   Ordinal
+
+        Se seus valores podem ser ordenados do menor para o maior.
+
+        Ex.: Temperatura (baixa, média ou alta), saldo em caixa (negativo, nulo ou positivo), etc.
+
+    -   Nominal
+
+        Quando não for possível estabeler ordenamento.
+
+        Ex.: Sexo do individuo, atividade fim da empresa, marca/modelo do caminhão, etc.
 
 \newpage
 
@@ -156,155 +157,249 @@ Markdown(tabulate(
 
 ### Teoria
 
-* Definição de Estatística:
+-   Definição de Estatística:
 
-  A Estatística de uma maneira geral compreende aos métodos científicos para **COLETA**,
-  **ORGANIZAÇÃO**, **RESUMO**, **APRESENTAÇÃO** e **ANÁLISE** de Dados de Observação (Estudos ou
-  Experimentos), obtidos em qualquer área de conhecimento. A finalidade é a de obter conclusões
-  válidas para tomada de decisões.
-  
-  * Estatística Descritiva
-  
-    Parte responsável basicamente pela **COLETA** e **SÍNTESE** (Descrição) dos Dados em questão.
+    A Estatística de uma maneira geral compreende aos métodos científicos para **COLETA**, **ORGANIZAÇÃO**, **RESUMO**, **APRESENTAÇÃO** e **ANÁLISE** de Dados de Observação (Estudos ou Experimentos), obtidos em qualquer área de conhecimento. A finalidade é a de obter conclusões válidas para tomada de decisões.
 
-    Disponibiliza de técnicas para o alcance desses objetivos. Tais Dados podem ser provenientes de uma AMOSTRA ou POPULAÇÃO.
-  
-  * Estatística Inferencial
-  
-    É utilizada para tomada de decisões a respeito de uma população, em geral fazendo uso de
-    dados de amostrais.
+    -   Estatística Descritiva
 
-    Essas decisões são tomadas sob condições de **INCERTEZA**, por isso faz-se necessário o uso da
-    **TEORIA DA PROBABILIDADE**.
+        Parte responsável basicamente pela **COLETA** e **SÍNTESE** (Descrição) dos Dados em questão.
 
-* O fluxograma da estatística descritiva pode ser espresso da seguinte forma:
+        Disponibiliza de técnicas para o alcance desses objetivos. Tais Dados podem ser provenientes de uma AMOSTRA ou POPULAÇÃO.
 
-  ![Estatística descritiva.](./Quarto/Imagens/fluxograma_estatistica_descritiva.png){}
+    -   Estatística Inferencial
 
-* A representação tabular (Tabelas de Distribuição de Frequências) deve conter:
-  * Cabeçalho
-  
-    Deve conter o suficiente para que as seguintes perguntas sejam respondidas "**o que?**" (Relativo ao fato), "**onde?**" (Relativo ao lugar) e "**quando?**" (Correspondente à época).
-  
-  * Corpo
-    
-    É o lugar da Tabela onde os dados serão registrados. Apresenta colunas e sub colunas.
-  
-  * Rodapé
-    
-    Local destinado à outras informações pertinentes, por exemplo a Fonte dos Dados.
+        É utilizada para tomada de decisões a respeito de uma população, em geral fazendo uso de dados de amostrais.
 
-* População e Amostras
-  
-  * População
-    
-    É o conjunto de todos os itens, objetos ou pessoas sob consideração, os quais possuem pelo
-    menos uma característica (Variável) em comum. Os elementos pertencentes à uma População são
-    denominados "Unidades Amostrais".
-  
-  * Amostras
-  
-    É qualquer subconjunto (não vazio) da População. É extraída conforme regras pré-estabelecidas,
-    com a finalidade de obter "estimativa" de alguma Característica da População.
+        Essas decisões são tomadas sob condições de **INCERTEZA**, por isso faz-se necessário o uso da **TEORIA DA PROBABILIDADE**.
+
+-   O fluxograma da estatística descritiva pode ser espresso da seguinte forma:
+
+    ![Estatística descritiva.](./Quarto/Imagens/fluxograma_estatistica_descritiva.png)
+
+-   A representação tabular (Tabelas de Distribuição de Frequências) deve conter:
+
+    -   Cabeçalho
+
+        Deve conter o suficiente para que as seguintes perguntas sejam respondidas "**o que?**" (Relativo ao fato), "**onde?**" (Relativo ao lugar) e "**quando?**" (Correspondente à época).
+
+    -   Corpo
+
+        É o lugar da Tabela onde os dados serão registrados. Apresenta colunas e sub colunas.
+
+    -   Rodapé
+
+        Local destinado à outras informações pertinentes, por exemplo a Fonte dos Dados.
+
+-   População e Amostras
+
+    -   População
+
+        É o conjunto de todos os itens, objetos ou pessoas sob consideração, os quais possuem pelo menos uma característica (Variável) em comum. Os elementos pertencentes à uma População são denominados "Unidades Amostrais".
+
+    -   Amostras
+
+        É qualquer subconjunto (não vazio) da População. É extraída conforme regras pré-estabelecidas, com a finalidade de obter "estimativa" de alguma Característica da População.
 
 \newpage
 
-* Tipos de variáveis
+-   Tipos de variáveis
 
-  ![Tipos de variáveis.](./Quarto/Imagens/tipos_de_variaveis_estatistica.png){height=5cm}
-  
-  * *Qualitativo nominal*:
-  
-    Não possuem uma ordem natural de ocorrência.
-  
-  * *Qualitativo ordinal*:
-  
-    Possuem uma ordem natural de ocorrência.
-  
-  * *Quantitativo descreta*:
-    
-    Só podem assumir valores inteiros, pertencentes a um conjunto finito ou enumerável.
-  
-  * *Quantitativo continua*:
-    
-    Podem assumir qualquer valor em um determinado intervalo da reta dos números reais.
+    ![Tipos de variáveis.](./Quarto/Imagens/tipos_de_variaveis_estatistica.png){height="5cm"}
+
+    -   *Qualitativo nominal*:
+
+        Não possuem uma ordem natural de ocorrência.
+
+    -   *Qualitativo ordinal*:
+
+        Possuem uma ordem natural de ocorrência.
+
+    -   *Quantitativo descreta*:
+
+        Só podem assumir valores inteiros, pertencentes a um conjunto finito ou enumerável.
+
+    -   *Quantitativo continua*:
+
+        Podem assumir qualquer valor em um determinado intervalo da reta dos números reais.
 
 \newpage
 
 ### Preparação dos dados (sumariazar dados coletados)
 
-* Frequência (conceito):
-  
-  É a quantidade de vezes que um valor é observado dentro de um conjunto de dado.
+-   Frequência (conceito):
 
-* Distribuição em frequências:
-  * A distribuição tabular é denominada: "Tabela de Distribuição de Frequências".
-  * Podemos separar em 3 modelos de distribuição tabular:
-    * Variável Quantitativa Discreta.
-    * Variável Quantitativa Contínua.
-    * Variáveis Qualitativas.
+    É a quantidade de vezes que um valor é observado dentro de um conjunto de dado.
+
+-   Distribuição em frequências:
+
+    -   A distribuição tabular é denominada: "Tabela de Distribuição de Frequências".
+    -   Podemos separar em 3 modelos de distribuição tabular:
+        -   Variável Quantitativa Discreta.
+        -   Variável Quantitativa Contínua.
+        -   Variáveis Qualitativas.
 
 \newpage
 
 #### Variável Quantitativa Discreta
 
-* Passos da preparação dos dados:
-  * 1º Passo - **DADOS BRUTOS**: 
-    
-    Obter os dados da maneira que foram coletados.
-  
-  * 2º Passo - **ROL**: 
-    
-    Organizar os DADOS BRUTOS em uma determinada ordem (crescente ou decrescente).
-  
-  * 3º Passo - **CONSTRUÇÃO TABELA**: 
-    
-    Na primeira coluna são colocados os valores da variável, e nas demais as respectivas frequências.
-  
-  * Frequência absoluta simples (Nº de vezes que cada valor da variável se repete).
+-   Passos da preparação dos dados:
 
-* Principais campos da **distribuição tabular de variaveis quantitativas discreta**:
-  * $n$ é o número total de elementos da amostra.
-  * $x_{i}$ é o número de valores distintos que a variavel assume.
-  * $F_{i}$ é a Frequência Absoluta Simples.
-  * $f_{i}$ é a Frequência Relativa Simples.
-  * $f_{i} \%$ é a Frequência Relativa Simples Percentual. $f_{i}\% = f_{i} \cdot 100\%$.
-  * $F_{a}$ é a Frequência Absoluta Acumulada.
+    -   1º Passo - **DADOS BRUTOS**:
 
-  ![Distribuição tabular quantitativo discreta.](./Quarto/Imagens/Distribuicao_tabular_quantitativo_discreta.png){height=5cm}
+        Obter os dados da maneira que foram coletados.
 
-  Obs.: As setas simbolizam ordem crescente ou decrescente.
+    -   2º Passo - **ROL**:
+
+        Organizar os DADOS BRUTOS em uma determinada ordem (crescente ou decrescente).
+
+    -   3º Passo - **CONSTRUÇÃO TABELA**:
+
+        Na primeira coluna são colocados os valores da variável, e nas demais as respectivas frequências.
+
+    -   Frequência absoluta simples (Nº de vezes que cada valor da variável se repete).
+
+-   Principais campos da **distribuição tabular de variaveis quantitativas discreta**:
+
+    -   $n$ é o número total de elementos da amostra.
+    -   $x_{i}$ é o número de valores distintos que a variavel assume.
+    -   $F_{i}$ é a Frequência Absoluta Simples.
+    -   $f_{i}$ é a Frequência Relativa Simples.
+    -   $f_{i} \%$ é a Frequência Relativa Simples Percentual. $f_{i}\% = f_{i} \cdot 100\%$.
+    -   $F_{a}$ é a Frequência Absoluta Acumulada.
+
+    ![Distribuição tabular quantitativo discreta.](./Quarto/Imagens/Distribuicao_tabular_quantitativo_discreta.png){height="5cm"}
+
+    Obs.: As setas simbolizam ordem crescente ou decrescente.
 
 \newpage
 
 #### Variável Quantitativa Contínua
 
+* Teoria:
+  * A construção da representação tabular é realizada de maneira análoga ao caso das variáveis discretas.
+  * As frequências são agrupadas em classes, denominadas de "Classes de Frequência".
+  * Denominada "Distribuição de Frequências em Classes" ou "Distribuição em Frequências Agrupadas".
+
+![Distribuição de frequências em classes.](./Quarto/Imagens/Distr_de_freq_em_classes.png){}
+
+* Convencionar o tipo de intervalo para as classes de frequência:
+
+    ![Intervalo de classes, para distribuição de frequência quantitativa contínua.](./Quarto/Imagens/Intervalo_classes-dist_freq_quant_continua.png){height=5cm}
+
+    ![Premissas da distribuição de frequências quantitativa contínua.](./Quarto/Imagens/Distribuicao_freq_quant_conti-premissas.png){height=5cm}
+
+\newpage
+
+Passos para contruir a **Tabela Distribuição de Frequências Contínua**:
+
+1. Como estabelecer o **número de classes** ($k$):
+  * Normalmente varia de 5 a 20 classes.
+  * Critério fórmula de Sturges:
+    $$k \cong 1 + 3,3 \cdot \log (n)$$
+  * Critério da Raiz quadrada:
+    $$k \cong \sqrt{n}$$
+    Onde $n$ é o número de elementos amostrais.
+
+1. Como calcular a **Amplitude Total** ($AT_{x}$):
+  * Diferença entre o maior e o menor valor observado.
+  * Intervalo de variação dos valores observados.
+  * Aproximar valor calculado para múltiplo do nº classes ($k$).
+  * Garantir inclusão dos valores mínimo e máximo.
+  * Cálculo:
+    $$AT_{x} = Máx(X_{i}) - Mín(X_{i})$$
+    Onde,
+  
+    $AT_{x}$ é a Amplitude Total.
+  
+    $Máx(X_{i})$ é o *valor máximo das amostras*.
+  
+    $Min(X_{i})$ é o *valor mínimo das amostras*.
+  
+  * Exemplo:
+  
+    Se $k = 5$,
+  
+    $AT_{x} = 28$
+  
+    Logo, arredondando $AT_{x} = 30$, para aproximar o valor $AT_{x}$ de um múltiplo de $k$.
+
+1. Como cálcular a **Amplitude das classes da frequência** ($h$):
+  * As classes terão amplitudes iguais.
+  * Cálculo:
+  $$ h = h_{i} = \frac{AT_{x}}{k}$$
+  Onde, $k$ é o **número de classes** e $AT_{x}$ é a **Amplitude Total**.
+
+1. Como determinar o ponto médio das classes, representatividade da classe ($p_{i}$):
+    $$p_{i} = \frac{(LS_{i} - LI_{i})}{2} $$
+    Onde,
+    
+    $LS_{i}$ é o limite superior da classe.
+    
+    $LI_{i}$ é o limite inferior da classe.
+
+2. Passos da preparação dos dados:
+  * 1º Passo - **DADOS BRUTOS**:
+        
+        Obter os dados da maneira que foram coletados.
+  
+  * 2º Passo - **ROL**:
+        
+        Organizar os DADOS BRUTOS em uma determinada ordem (crescente ou decrescente).
+  
+  * 3º Passo - **CONSTRUÇÃO TABELA**:
+        
+    Na primeira coluna são colocados as classes, e nas demais as respectivas frequências.
+  
+  * Exemplo:
+    
+    ![Tabela de distribuição de frequência quantitativa contínua.](./Quarto/Imagens/tabela_de_dist_freq_quant_conti.png){height=5cm}
+    
+    $X_{i}$ são as classes.
+    
+    $F_{i}$ é a Frequência Absoluta Simples.
+    
+    $f_{i}$ é a Frequência Relativa Simples.
+    
+    $f_{i} \%$ é a Fequência Relativa Simples Percentual.
+    
+    $F_{a}$ é a Frequência Absoluta Acumulada.
+    
+    $f_{a}$ é a Fequência Absoluta Acumulada Simples.
+    
+    $f_{a} \%$ é a Fequência Absoluta Acumulada Simples Percentual.
+    
+    $p_{i}$ é a Representatividade da classe (ponto médio das classes).
+
+\newpage
+
 #### Variáveis Qualitativas
 
 ## Medidas de posição
+
 ## Medidas de dispersão
 
 \newpage
 
 ## Análise Estatística
 
-* Para fazer uma Análise Estatística eficiente de dados, necessitamos:
-  
-  * Limpar os dados:
-    
-    Remover os *OUTLIER* (valores atipicos, inconsistentes).\
-  
-  * Aplicar Estatística Descritiva aos dados:
-    
-    As medidas de posição (**Média**, **Mediana** e **moda**) e dispersão (**Amplitude Total**, **Desvio**, **Desvio Médio**, **Variância**, **Desvio-padrão** e **Coeficiente de Variação**) são maneiras de descrever os dados.
-  
-  * Comparar as medidas dos dados:
-    
-    Principalmente medidas de dispersão, me especial **Coeficiente de Variação**, são ótimas para comparar dados.
-  
-  * Previsão de dados:
-    
-    A principal técnica é de **Regressão**, porém para aplicar, necessita que os dados estejam limpos e com pouca dispersão (quanto menor, melhor).
+-   Para fazer uma Análise Estatística eficiente de dados, necessitamos:
+
+    -   Limpar os dados:
+
+        Remover os *OUTLIER* (valores atipicos, inconsistentes).\
+
+    -   Aplicar Estatística Descritiva aos dados:
+
+        As medidas de posição (**Média**, **Mediana** e **moda**) e dispersão (**Amplitude Total**, **Desvio**, **Desvio Médio**, **Variância**, **Desvio-padrão** e **Coeficiente de Variação**) são maneiras de descrever os dados.
+
+    -   Comparar as medidas dos dados:
+
+        Principalmente medidas de dispersão, me especial **Coeficiente de Variação**, são ótimas para comparar dados.
+
+    -   Previsão de dados:
+
+        A principal técnica é de **Regressão**, porém para aplicar, necessita que os dados estejam limpos e com pouca dispersão (quanto menor, melhor).
 
 \newpage
 
@@ -314,46 +409,52 @@ Markdown(tabulate(
 
 Algumas ferramentas do Excel que podem ajudar na análise da dados:
 
-  * Filtro
-  * Tabela (tabela dinâmica)
-  * Gráficos
+-   Filtro
+-   Tabela (tabela dinâmica)
+-   Gráficos
 
 ## Filtro Excel
 
-* Inserir filtros na primeira linha (campo):
-  * Célula na primeira linha
-  * Aba "Dados" > "Classificar e Filtrar" > "Filtro"
+-   Inserir filtros na primeira linha (campo):
+    -   Célula na primeira linha
+    -   Aba "Dados" \> "Classificar e Filtrar" \> "Filtro"
 
 ## Tabela dinâmica
 
-* Inserir Tabela dinâmica:
-  * Selecionar toda tabela;
-    * Selecionar primeira célula ("A1");
-    * Comandos: CTRL + SHIFT + $\downarrow$ + $\rightarrow$;
-  * Aba "Inserir" > "Tabelas" > "Tabela dinâmica";
-  * Opção "Nova planilha".
-
-* Agrupar informações com tabela dinâmica:
-  * Linha/Registro: informação que queremos;
-  * Valores: Normalmente registros únicos (primary key, exemplo: "ID").
+-   Inserir Tabela dinâmica:
+    -   Selecionar toda tabela;
+        -   Selecionar primeira célula ("A1");
+        -   Comandos: CTRL + SHIFT + $\downarrow$ + $\rightarrow$;
+    -   Aba "Inserir" \> "Tabelas" \> "Tabela dinâmica";
+    -   Opção "Nova planilha".
+-   Agrupar informações com tabela dinâmica:
+    -   Linha/Registro: informação que queremos;
+    -   Valores: Normalmente registros únicos (primary key, exemplo: "ID").
 
 ## Gráficos
 
-* Criar um gráfico rapído com base na tabela dinâmica:
-  * Clickar na tabela dinâmica criada;
-  * Aba "Inserir" > "Gráficos" > "Gráficos recomendados".
+-   Criar um gráfico rapído com base na tabela dinâmica:
+    -   Clickar na tabela dinâmica criada;
+    -   Aba "Inserir" \> "Gráficos" \> "Gráficos recomendados".
 
 \newpage
 
-## Bloco `if-else`
+## Bloco `if-else` - `SE()`
 
-* Podemos usar o bloco `if-else` no Excel usando a função `SE()`.
-* Na função `SE()`, usamos como argumentos:
-  * Expressão a ser avaliada;
-  * Ação caso verdadeira;
-  * Ação caso falso.
-* Para usar uma **função no Excel** na barra de fórmulas inserimos o sinal de `=` antes da expressão/função para o Excel saber que se trata de uma expressão.
-  
-  Exemplo:
-  
-  `=SE($T2="TRUE";"Pessoa Gestora";$X2)`
+-   Podemos usar o bloco `if-else` no Excel usando a função `SE()`.
+
+-   Na função `SE()`, usamos como argumentos:
+
+    -   Expressão a ser avaliada;
+    -   Ação caso verdadeira;
+    -   Ação caso falso.
+
+-   Para usar uma **função no Excel** na barra de fórmulas inserimos o sinal de `=` antes da expressão/função para o Excel saber que se trata de uma expressão.
+
+    Exemplo:
+
+    `=SE($T2="TRUE";"Pessoa Gestora";$X2)`
+
+## Cruzar dados
+
+\newpage
