@@ -457,4 +457,13 @@ Algumas ferramentas do Excel que podem ajudar na análise da dados:
 
 ## Cruzar dados
 
+* Cruzar dados usando uma tabela dinâmica no Excel:
+
+    Podemos cruzar os dados usando tabela dinâmica escolhendo cuidadosamente as informações 
+    que estarão contidas nas colunas e nas linhas, assim cruando as informações.
+
+* Podemos filtrar os dados apresentados nas linhas e/ou colunas para melhor visualizar a informação.
+
 \newpage
+
+# PRIMEIRA ANÁLISE - PYTHON
