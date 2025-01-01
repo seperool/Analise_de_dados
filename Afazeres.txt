@@ -1,6 +1,6 @@
-ESCRITO EM 31/12/24
+ESCRITO EM 01/01/25
 ---
-PARA 01/01/25
+PARA 02/01/25
 ---
 Subir github:
 
@@ -17,8 +17,6 @@ Afazeres:
             - Cruzar dados
         - Exercicios Modulo 2:
             - Cruzamento de dados
-                - Quantas mulheres são amarelas?
-                - Qual estado tem mais gestores homens?
                 - Qual a média de idade?
                 - Será que quanto maior a formação, maior o nivel? (Nível de ensino x nível)
                 - Será que tem mais homens ou mulheres com pós-graduação? (Genero x Nivel de ensino)
