@@ -20,6 +20,8 @@ format:
       toc: true
       number-sections: true
       highlight-style: github
+    gfm:
+        mermaid-format: png
 jupyter: python3
 bibliography: Quarto/bibliografia.bib
 csl: Quarto/abnt.csl
@@ -70,6 +72,21 @@ import pytinytex
 \pagenumbering{arabic}
 
 # PRINCIPAIS TÓPICOS
+
+```{mermaid}
+%%| fig-width: 6.5
+%%| fig-cap: "Plano de estudo de análise de dados"
+
+flowchart LR
+  A[Estudo de análise de dados] --> B{Estatística}
+  B --> C[Excel]
+  B --> F[Banco de dados]
+  C --> D[Python]
+  D --> E[Bibliotecas]
+  F --> D
+```
+
+\newpage
 
 # DADOS
 
