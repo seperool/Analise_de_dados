@@ -1,6 +1,6 @@
-ESCRITO EM 02/01/25
+ESCRITO EM 03/01/25
 ---
-PARA 03/01/25
+PARA 04/01/25
 ---
 Subir github:
 
@@ -13,10 +13,9 @@ Afazeres:
                 - Variáveis Qualitativas
             - Medidas de posição
             - Medidas de dispersão
-        - Excel
-            - Cruzar dados
     - Módulo 3:
         - Python
-            - print
             - Variável
             - Bloco if-else
+            - powershell
+                - tabela restrições de segurança
