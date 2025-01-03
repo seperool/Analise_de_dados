@@ -467,3 +467,7 @@ Algumas ferramentas do Excel que podem ajudar na análise da dados:
 \newpage
 
 # PRIMEIRA ANÁLISE - PYTHON
+
+## Imprimir na tela - `print()`
+## Váriavel
+## Bloco `IF-ELSE`
