@@ -469,5 +469,86 @@ Algumas ferramentas do Excel que podem ajudar na análise da dados:
 # PRIMEIRA ANÁLISE - PYTHON
 
 ## Imprimir na tela - `print()`
+
+O comando `print()` imprime na tela uma mensagem.  
+Exemplo:
+```{python} 
+print("Hello world!")
+```
+
 ## Váriavel
 ## Bloco `IF-ELSE`
+
+\newpage
+
+## Alguns comandos de `powershell` do Windows
+
+### Comandos Básicos
+
+```{python}
+#| label: tbl-basic-powershell
+#| tbl-cap: Comandos básicos de powershell
+#| echo: false
+#| error: false
+#| warning: false
+
+from IPython.display import Markdown
+from tabulate import tabulate
+table = [["`cd`","Navegar pelas pastas."],
+         ["`dir`","Listar arquivos de uma pasta."],
+         ["`cls` ou `clear`","Limpa a tela."],
+         ["`Get-Help <comando>`","Obter ajuda com relação a um comando do powershell."],
+         ["`mkdir <nome_diretório>`","Criar um novo diretório."],
+         ['`Copy-Item -Path "caminho com extensão" \n -Destination "caminho destino"`',"Copiar arquivo ou diretório."],
+         ['`Remove-Item "<caminho com extensão>"`',"Excluir arquivo ou diretório."]]
+Markdown(tabulate(
+  table, 
+  headers=["Comandos","Explicação"]
+))
+```
+
+### Alterar restrições de segurança
+
+```{python}
+#| label: tbl-restricoes_seguranca_powershell
+#| tbl-cap: Comandos para alterar restrições de segurança powershell
+#| echo: false
+#| error: false
+#| warning: false
+
+from IPython.display import Markdown
+from tabulate import tabulate
+table = [["`Get-ExecutionPolicy -List`","Para exibir as políticas de execução para cada escopo."],
+         ["`Set-ExecutionPolicy Unrestricted`",""],
+         ["`Set-ExecutionPolicy All Signed`",""],
+         ["`Set-ExecutionPolicy Remote Signed`",""],
+         ["`Set-ExecutionPolicy Restricted`",""]]
+Markdown(tabulate(
+  table, 
+  headers=["Comandos","Explicação"]
+))
+```
+
+### Serviços e Processos
+
+```{python}
+#| label: tbl-servicos_processos_powershell
+#| tbl-cap: Comandos de serviços e processos powershell
+#| echo: false
+#| error: false
+#| warning: false
+
+from IPython.display import Markdown
+from tabulate import tabulate
+table = [["`Get-Service`","Lista de serviços em execução."],
+         ["`Start-Service <nome do serviço>`","Iniciar serviço."],
+         ["`Stop-Service <nome do serviço>`","Parar serviço."],
+         ["`Suspend-Service <nome do serviço>`","Suspender serviço."],
+         ["`Restart-Service <nome do serviço>`","Reiniciar serviço."]]
+Markdown(tabulate(
+  table, 
+  headers=["Comandos","Explicação"]
+))
+```
+
+\newpage
