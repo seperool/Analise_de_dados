@@ -86,6 +86,21 @@ flowchart LR
   F --> D
 ```
 
+```{mermaid}
+%%| fig-width: 6.5
+%%| fig-cap: "Destrinchando tópicos"
+
+flowchart LR
+  A[Excel] --> M[Tabela dinâmica]
+  M --> B[Cruzamento de dados]
+  C[Banco de dados] --> D[DML]
+  C --> N[DDL]
+  E[Python] --> F{Bibliotecas}
+  F --> G[pandas]
+  F --> H[numpy]
+  F --> I[matplotlib]
+```
+
 \newpage
 
 # DADOS
@@ -536,10 +551,10 @@ Markdown(tabulate(
 from IPython.display import Markdown
 from tabulate import tabulate
 table = [["`Get-ExecutionPolicy -List`","Para exibir as políticas de execução para cada escopo."],
-         ["`Set-ExecutionPolicy Unrestricted`",""],
-         ["`Set-ExecutionPolicy All Signed`",""],
-         ["`Set-ExecutionPolicy Remote Signed`",""],
-         ["`Set-ExecutionPolicy Restricted`",""]]
+         ["`Set-ExecutionPolicy Unrestricted`","Permite executar todo e qualquer script."],
+         ["`Set-ExecutionPolicy All Signed`","Todos os scripts devem ser assinados por alguém confiável."],
+         ["`Set-ExecutionPolicy Remote Signed`","Todos os scripts que forem baixados da Internet devem \nser assinados por alguém confiável."],
+         ["`Set-ExecutionPolicy Restricted`","Não permite a execução de nenhum script."]]
 Markdown(tabulate(
   table, 
   headers=["Comandos","Explicação"]
